@@ -447,11 +447,12 @@ header.filter-div{
 }
 
 .files-div label:hover{
-    color:#DDA0DD;
+    color:#301934;;
 }
 
 .files-div input{
     display: none;
+    
 }
 
 #addNewAdModal.active > form > textarea[name="additional"]{
@@ -491,12 +492,14 @@ header.filter-div{
     padding: 10px;
     position: relative;
     color:#DDA0DD;
+    
 
 }
 
 .side-menu > div{
     position: fixed;
-    width: 15vw
+    width: 15vw;
+    
 }
 
 
@@ -519,10 +522,16 @@ header.filter-div{
     height: 45px;
     justify-content: flex-start;
     color:#DDA0DD;
+    border: 2px solid #DDA0DD;
+    background-color: #301934;
+    
 }
+
+
 
 .side-menu button > svg{
     margin-right: 10px;
+    
 }
 
 .side-menu ul > li{
@@ -559,6 +568,8 @@ header.filter-div{
     margin-top:10px;
     padding: 15px;
     color:#DDA0DD; 
+    border: 2px solid #DDA0DD;
+    background-color: #301934;
 }
 
 .search-icon svg{
