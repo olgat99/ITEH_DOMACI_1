@@ -20,19 +20,23 @@ main{
 .filter-div{
     height: 12vh;
     min-height: 90px;
+    color:#DDA0DD;
 }
 
 header.filter-div{
     padding: 5px!important;
+   
 }
 
 .price-div, .year-div{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .price-div input, .year-div input{
     width: 100px;
+    
 }
 
 .price-div > div, .year-div > div{
@@ -59,12 +63,13 @@ header.filter-div{
     display: flex;
     flex-direction: column;
     padding: 20px;
+    background-color:#301934;;
 }
 
 .ad-div{
     margin:auto;
     border-radius: 25px;
-    box-shadow: 4px 5px 13px -3px rgba(0,0,0,0.64);
+    box-shadow: 4px 5px 13px -3px #DDA0DD;
     height: auto;
     background-color: #DDA0DD;
     width: 90%;
@@ -76,6 +81,7 @@ header.filter-div{
 .ad-div > div.img-div{
     /* background-color: red; */
     border-radius: 25px;
+    background-color: #DDA0DD;
 
 }
 
@@ -92,7 +98,7 @@ header.filter-div{
 }
 
 .ad-div > .vr-div{
-    background-color: rgb(114, 172, 226);
+    background-color:#DDA0DD;
     width: 1.5px;
     margin:0 10px;
     height: 100%;
@@ -106,7 +112,7 @@ header.filter-div{
     display: flex;
     flex-direction: column;
     padding: 10px;
-    box-shadow: 0px 0px 5px 2px #000000;
+    box-shadow: 0px 0px 5px 2px #DDA0DD;
 }
 
 .ad-info-div .ad-title{
@@ -124,11 +130,13 @@ header.filter-div{
 
 .ad-info-div .ad-title > button{
     margin:0 5px;
+
 }
 
 .ad-info-div .ad-title > button > svg{
     width: 100%;
     height: 100%;
+    
 }
 
 .ad-basic-info-div{
@@ -146,7 +154,7 @@ header.filter-div{
 }
 
 .ad-basic-info-div > button:hover{
-    color:red;
+    color:#DDA0DD;
     font-weight: 500;
 }
 
@@ -162,7 +170,7 @@ header.filter-div{
 
 .ad-detailed-info-div > *:not([type="button"]) {
     border-radius: 5px;
-    background: #3211ee;
+    background:#DDA0DD;
     background-origin: content-box;
     display: flex;
     align-items: center;
@@ -196,6 +204,8 @@ header.filter-div{
     text-align: center;
     justify-content: center;
     align-items: center;
+    background-color: #301934;
+    border: 2px solid #301934;
 }
 
 .ad-detailed-info-div .price-div > div{
@@ -205,6 +215,7 @@ header.filter-div{
 .ad-detailed-info-div .price-div svg{
     width: 25px;
     height: 25px;
+    
 }
 
 .ad-detailed-info-div .date-div{
@@ -213,6 +224,8 @@ header.filter-div{
     grid-row: 5;
     font-size: 1.3em;
     grid-column: 1;
+    background-color: #301934;
+    border: 2px solid #301934;
 }
 
 .ad-detailed-info-div .date-div > div{
@@ -287,7 +300,7 @@ header.filter-div{
 .your-ad .owner-div{
     color: white;
     font-size: 1.4em;
-    border: 2px solid greenyellow;
+    border: 2px solid #DDA0DD;
 }
 #deleteAdModal .question{
     text-align: center;
@@ -477,6 +490,8 @@ header.filter-div{
     min-height: 100vh;
     padding: 10px;
     position: relative;
+    color:#DDA0DD;
+
 }
 
 .side-menu > div{
@@ -503,6 +518,7 @@ header.filter-div{
     width: 100%;
     height: 45px;
     justify-content: flex-start;
+    color:#DDA0DD;
 }
 
 .side-menu button > svg{
@@ -542,6 +558,7 @@ header.filter-div{
 .search-icon{
     margin-top:10px;
     padding: 15px;
+    color:#DDA0DD; 
 }
 
 .search-icon svg{
